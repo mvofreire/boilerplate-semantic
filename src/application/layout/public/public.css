@@ -1,0 +1,18 @@
+.container-public {
+  display: flex;
+  height: 100%;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.container-public .section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-public .section:last-child {
+  box-shadow: inset 1px 0px 0px 0px #dedede;
+}
